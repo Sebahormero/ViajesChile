@@ -1,0 +1,75 @@
+body {
+    font-family: "Raleway", sans-serif !important;
+    background-color: #000000 !important;
+    color: #ffffff !important;
+  }
+  
+  /* Estilos de la barra de navegación */
+  .navbar-transparent {
+    background-color: transparent !important;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .navbar-transparent .navbar-nav .nav-link {
+    color: #ffffff !important;
+  }
+  
+  .navbar-transparent.scrolled {
+    background-color: rgba(0, 0, 0, 0.8) !important;
+  }
+  
+  .navbar-brand img {
+    height: 40px;
+  }
+  
+  
+  /* sección quienes somos */
+  .icono {
+    background-color: #25a3b7;
+    color: #ffffff;
+    min-height: 35px;
+  }
+  
+  /* seccion destacados */
+  .card {
+    background-color: #25a3b7 !important;
+    border-color: #ffffff !important;
+  }
+  .separador{
+    background-color: #25a3b7;
+    color: #25a3b7;
+    margin-bottom: 2.5rem;
+  }
+  
+  .btn-info{
+  text-decoration: none;
+  color: #ffffff;
+  background-color: black;
+  padding: 0.6rem 0.9rem;
+  border-radius: 5px;
+  margin: auto;
+  margin-top: 2rem;
+  display: block;
+  max-width: 155px;
+  }
+  
+  
+  .pie-pagina {
+    background-color: #25a3b7;
+  }
+  
+  .redes-sociales a{
+  font-size: 24px;
+  color: #ffffff;
+  margin-right: 0.7rem;
+  }
+  
+  .redes-sociales a:hover {
+  opacity: 0.7;
+  }
+  
+  @media screen and (min-width:1023px) {
+    .navbar-nav{
+      background-color: transparent!important;
+    }
+  }
